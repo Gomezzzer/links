@@ -1,1 +1,195 @@
-link in bio
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gomezzzer Linktree</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Source+Sans+Pro" rel="stylesheet">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+
+    <style>
+      html {
+        min-height: 100%;
+        height: fit-content;
+      }
+
+      body {
+        min-height: 100%;
+        height: fit-content;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 0;
+        font-family: 'Source Sans Pro', Sans-Serif;
+        background-color: #edfcfb;
+      }
+
+
+    .items {
+      margin: auto;
+      padding: 30px;
+      max-width: 640px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .name {
+      display: flex;
+      justify-content: center;
+      font-size: 25px;
+      color: #20b6ac;
+      font-family: 'Playfair Display', Serif;
+    }
+
+    .info {
+      display: flex;
+      justify-content: center;
+      color: #20b6ac; 
+      margin-left: -5rem;
+      margin-bottom: -2rem;   
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      border-radius: 128px;
+      object-fit: cover;
+      box-shadow: 10px 5px 5px #20b6ac;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+
+    .link {
+      margin-right: -1rem;
+      margin-left: -1rem;
+      padding: 5px;
+      border-radius: 500px;
+      display: flex;
+      align-items: center;
+      background-color: #20b6ac;            
+      box-shadow: var(--shadow-elevation-low); 
+      transition: 0.3s;
+     box-shadow: 10px 5px 5px #627473;
+    }
+
+    .link:hover {
+      box-shadow: var(--shadow-elevation-medium);
+    }
+
+    .link a {
+      color: #ff8ba7;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+      margin-right: 2rem;
+    }
+
+    .link-text {
+      flex: 1;
+      text-align: center;
+      color: #ff8ba7;;
+      text-decoration: none;
+      padding: 0 5px;
+    }
+
+    .info p {
+      font-size: 20px;
+      margin-left: -1rem;
+      margin-right: -6rem;
+      margin-top: -1rem;
+    }
+
+    
+        
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="items">
+
+        <div class="banner">
+          <img src="./thumbnails/ME.png" alt="Jorge Gomez headshot" class="banner-image">
+        </div>
+
+        <div class="name">
+           Jorge Gomez
+        </div>
+        <div class="info">
+          <p>Full Stack Web Developer </p>
+        </div>
+      
+        <p align="center";>
+            <a href="https://skillicons.dev">
+              <img src="https://skillicons.dev/icons?i=vscode,rails,js,html,css" width="175"/>
+            </a>
+         </p>
+
+       
+        <div class="link">
+          <img class="thumbnail" src="https://skillicons.dev/icons?i=github" width="40">
+          <a target="_blank" href="https://github.com/Gomezzzer" target="blank">Github&nbsp;&nbsp;</a>
+        </div>
+
+        <div class="link">
+          <img class="thumbnail" src="https://skillicons.dev/icons?i=linkedin"
+          alt="linkedIn symbol" width="40">
+          <a target="_blank" href="https://www.linkedin.com/in/jorge-gomez-a6865313a/">linkedIn&nbsp;&nbsp;</a>
+        </div>
+
+        <div class="link">
+          <img class="thumbnail" src="https://skillicons.dev/icons?i=twitter" width="40">
+          <a target="_blank" href="https://twitter.com/Gomezzzer" target="blank">Twitter&nbsp;&nbsp;</a>
+        </div>
+
+        <div class="link">
+          <img class="thumbnail" src="./thumbnails/Screenshot 2023-07-08 162747.png">
+          <a target="_blank" href="https://gomezzzer.github.io/">Gomezzzer Portfolio&nbsp;&nbsp;</a>
+        </div>
+      
+        <div class="link">
+          <img class="thumbnail" src="./thumbnails/resume.jpg">
+          <a target="_blank" href="https://gomezzzer.github.io/resume/">Resume&nbsp;&nbsp;</a>
+        </div>
+
+        <div class="link">
+          <img class="thumbnail" src="./thumbnails/mountains2.jpg">
+          <a target="_blank" href="https://gomezzzer.github.io/Interactive-Photo-Gallery/">&nbsp;Interactive-Photo-Gallery</a>
+        </div>
+
+        <div class="link">
+          <img class="thumbnail" src="./thumbnails/moon.jpg">
+          <a target="_blank" href="https://gomezzzer.github.io/space-tourism-website/index.html">Space Tourism Website</a>
+        </div>
+
+        <div class="link">
+          <img class="thumbnail" src="./thumbnails/Screenshot 2023-07-08 163219.png">
+          <a target="_blank" href="https://gomezzzer.github.io/WebApp-Dashboard/">WebApp-Dashboard&nbsp;</a>
+        </div>
+
+    </div>
+  </body>
+</html>
